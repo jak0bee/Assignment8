@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb9a2a09-6c7b-4af9-9284-4e00c277b7cf" name="Changes" comment="wszystkie roll testy">
-      <change afterPath="$PROJECT_DIR$/src/test/java/QuestionCategoryTest.java" afterDir="false" />
+    <list default="true" id="eb9a2a09-6c7b-4af9-9284-4e00c277b7cf" name="Changes" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code/QuestionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/QuestionManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GameRunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AnswerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RollTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +21,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -52,11 +50,12 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/marcell/Documents/*School/Year 1/Semester 2/Software Engineering/Assignments/Assignment 8/src",
+    "last_opened_file_path": "/Users/marcell/Documents/*School/Year 1/Semester 2/Software Engineering/Assignments/Assignment 8/test_results",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -65,6 +64,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test_results" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -89,17 +89,6 @@
       <option name="USE_OPTIONS" value="false" />
       <option name="OPTIONS" value="" />
       <method v="2" />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -160,6 +149,17 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -171,6 +171,7 @@
       <updated>1685711405753</updated>
       <workItem from="1685711406960" duration="9706000" />
       <workItem from="1685725427767" duration="3598000" />
+      <workItem from="1685731017800" duration="1805000" />
     </task>
     <task id="LOCAL-00001" summary="maven ojcze">
       <created>1685712768769</created>
@@ -228,7 +229,42 @@
       <option name="project" value="LOCAL" />
       <updated>1685728198548</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary=".">
+      <created>1685729593740</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1685729593740</updated>
+    </task>
+    <task id="LOCAL-00010" summary=".">
+      <created>1685729808892</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1685729808892</updated>
+    </task>
+    <task id="LOCAL-00011" summary=".">
+      <created>1685731063301</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1685731063301</updated>
+    </task>
+    <task id="LOCAL-00012" summary=".">
+      <created>1685732694045</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1685732694045</updated>
+    </task>
+    <task id="LOCAL-00013" summary=".">
+      <created>1685732752173</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1685732752173</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,6 +275,7 @@
     <MESSAGE value="gettery" />
     <MESSAGE value="testy" />
     <MESSAGE value="wszystkie roll testy" />
-    <option name="LAST_COMMIT_MESSAGE" value="wszystkie roll testy" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>
