@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb9a2a09-6c7b-4af9-9284-4e00c277b7cf" name="Changes" comment="testy">
+    <list default="true" id="eb9a2a09-6c7b-4af9-9284-4e00c277b7cf" name="Changes" comment="wszystkie roll testy">
+      <change afterPath="$PROJECT_DIR$/src/test/java/QuestionCategoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code/QuestionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/QuestionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GameRunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AnswerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RollTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +35,7 @@
     </option>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2QeQ8GEQSR0emfH5FXjZs1b7Goo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -166,7 +170,7 @@
       <option name="presentableId" value="Default" />
       <updated>1685711405753</updated>
       <workItem from="1685711406960" duration="9706000" />
-      <workItem from="1685725427767" duration="2380000" />
+      <workItem from="1685725427767" duration="3598000" />
     </task>
     <task id="LOCAL-00001" summary="maven ojcze">
       <created>1685712768769</created>
@@ -210,7 +214,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685727284636</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="wszystkie roll testy">
+      <created>1685728138544</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1685728138544</updated>
+    </task>
+    <task id="LOCAL-00008" summary="wszystkie roll testy">
+      <created>1685728198548</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1685728198548</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +238,7 @@
     <MESSAGE value="maven ojcze" />
     <MESSAGE value="gettery" />
     <MESSAGE value="testy" />
-    <option name="LAST_COMMIT_MESSAGE" value="testy" />
+    <MESSAGE value="wszystkie roll testy" />
+    <option name="LAST_COMMIT_MESSAGE" value="wszystkie roll testy" />
   </component>
 </project>

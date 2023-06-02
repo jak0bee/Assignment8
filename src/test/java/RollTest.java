@@ -7,7 +7,7 @@ import org.junit.Test;
 import static junit.framework.TestCase.assertEquals;
 import static org.junit.Assert.assertThrows;
 
-public class GameTest {
+public class RollTest {
     Game game;
     @Before
     public void setUp() {
@@ -39,6 +39,9 @@ public class GameTest {
     }
     @Test
     public void overflowRollTest(){
+        game.getPLAYERS().get(0).setPlace(0);
+        game.roll(13);
+        assertEquals(game.getPLAYERS().get(0).getPlace(),0);
         game.roll(999);
         assert(game.getPLAYERS().get(game.getCurrentPlayerIndex()).getPlace()<12);
 

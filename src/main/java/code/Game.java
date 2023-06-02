@@ -1,4 +1,5 @@
 package code;
+// by Jakub Suszwedyk (6310933) and Marcell Dorko (6326607)
 
 import java.util.ArrayList;
 
@@ -82,8 +83,8 @@ public class Game {
         }
         Player player = PLAYERS.get(currentPlayerIndex);
         int newPosition = player.getPlace() + roll;
-        if (newPosition > 11) {
-            newPosition %= 12;
+        if (newPosition > 12) {
+            newPosition %= 13;
         }
         player.setPlace(newPosition);
 
@@ -104,7 +105,7 @@ public class Game {
      *
      * @return The category of the current question
      */
-    private String currentCategory() {
+    public String currentCategory() {
         int place = PLAYERS.get(currentPlayerIndex).getPlace();
         if (place == 0 || place == 4 || place == 8) return "Pop";
         if (place == 1 || place == 5 || place == 9) return "Science";
