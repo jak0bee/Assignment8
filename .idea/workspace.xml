@@ -4,11 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb9a2a09-6c7b-4af9-9284-4e00c277b7cf" name="Changes" comment="maven ojcze" />
+    <list default="true" id="eb9a2a09-6c7b-4af9-9284-4e00c277b7cf" name="Changes" comment="maven ojcze">
+      <change afterPath="$PROJECT_DIR$/src/main/java/code/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/code/GameOld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/code/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/code/QuestionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code/GameRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/GameRunner.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,6 +57,9 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -59,7 +77,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685711405753</updated>
-      <workItem from="1685711406960" duration="1534000" />
+      <workItem from="1685711406960" duration="9706000" />
     </task>
     <task id="LOCAL-00001" summary="maven ojcze">
       <created>1685712768769</created>
@@ -75,7 +93,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685712930170</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="maven ojcze">
+      <created>1685712994315</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685712994315</updated>
+    </task>
+    <task id="LOCAL-00004" summary="maven ojcze">
+      <created>1685713020804</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685713020804</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
