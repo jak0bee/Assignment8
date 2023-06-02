@@ -18,26 +18,24 @@ public class GameTest {
 
     @Test
     public void normalRollTest() {
-        int startingPostition = game.getPLAYERS().get(game.getCurrentPlayerIndex()).getPlace();
+        int startingPosition = game.getPLAYERS().get(game.getCurrentPlayerIndex()).getPlace();
         game.roll(3);
-        assertEquals(game.getPLAYERS().get(game.getCurrentPlayerIndex()).getPlace(),startingPostition+3);
-        startingPostition +=3;
+        assertEquals(game.getPLAYERS().get(game.getCurrentPlayerIndex()).getPlace(),startingPosition+3);
+        startingPosition +=3;
         game.roll(2);
-        assertEquals(game.getPLAYERS().get(game.getCurrentPlayerIndex()).getPlace(),startingPostition+ 2);
+        assertEquals(game.getPLAYERS().get(game.getCurrentPlayerIndex()).getPlace(),startingPosition+ 2);
 
     }
 
     @Test
     public void negativeRollTest(){
-        assertThrows(RuntimeException.class, () -> {
-            game.roll(-1);
-        });
+        assertThrows(RuntimeException.class, () -> game.roll(-1));
     }
     @Test
     public void zeroRollTest(){
-        int startingPostition = game.getPLAYERS().get(game.getCurrentPlayerIndex()).getPlace();
+        int startingPosition = game.getPLAYERS().get(game.getCurrentPlayerIndex()).getPlace();
         game.roll(0);
-        assertEquals(game.getPLAYERS().get(game.getCurrentPlayerIndex()).getPlace(),startingPostition);
+        assertEquals(game.getPLAYERS().get(game.getCurrentPlayerIndex()).getPlace(),startingPosition);
     }
     @Test
     public void overflowRollTest(){
