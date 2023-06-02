@@ -77,10 +77,13 @@ public class Game {
      * @param roll Number on the dice roll
      */
     private void updatePlayerPosition(int roll) {
+        if (roll<0){
+            throw new RuntimeException("Roll < 0");
+        }
         Player player = PLAYERS.get(currentPlayerIndex);
         int newPosition = player.getPlace() + roll;
         if (newPosition > 11) {
-            newPosition -= 12;
+            newPosition %= 12;
         }
         player.setPlace(newPosition);
 
