@@ -167,4 +167,12 @@ public class Game {
         if (currentPlayerIndex == PLAYERS.size()) currentPlayerIndex = 0;
         return true;
     }
+
+    public int getCurrentPlayerIndex() {
+        return currentPlayerIndex;
+    }
+
+    public ArrayList<Player> getPLAYERS() {
+        return PLAYERS;
+    }
 }
