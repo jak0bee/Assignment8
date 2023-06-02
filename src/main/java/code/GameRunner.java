@@ -1,6 +1,4 @@
-package Code;
-
-import Code.Game;
+package code;
 
 import java.util.Random;
 
