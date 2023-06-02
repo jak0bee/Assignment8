@@ -1,5 +1,10 @@
+package Code;
+
+import Code.Game;
 
 import java.util.Random;
+
+//done by Jakub Suszwedyk: 6310933   and Marcell Dorko: 6326607
 
 public class GameRunner {
 
