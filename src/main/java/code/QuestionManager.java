@@ -1,5 +1,6 @@
-package code;
 // by Jakub Suszwedyk (6310933) and Marcell Dorko (6326607)
+
+package code;
 
 import java.util.HashMap;
 import java.util.Map;

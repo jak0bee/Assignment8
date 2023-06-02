@@ -1,10 +1,10 @@
+// by Jakub Suszwedyk (6310933) and Marcell Dorko (6326607)
+
 import code.Game;
 import org.junit.Before;
 import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;
-
-// by Jakub Suszwedyk (6310933) and Marcell Dorko (6326607)
 
 public class QuestionCategoryTest {
     Game game;
