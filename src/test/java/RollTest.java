@@ -46,6 +46,6 @@ public class RollTest {
         game.roll(13);
         assertEquals(game.getPLAYERS().get(0).getPlace(), 0);
         game.roll(999);
-        assert (game.getPLAYERS().get(game.getCurrentPlayerIndex()).getPlace() < 12);
+        assert(game.getPLAYERS().get(game.getCurrentPlayerIndex()).getPlace()<12);
     }
 }
