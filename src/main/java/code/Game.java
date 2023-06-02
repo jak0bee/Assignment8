@@ -1,18 +1,22 @@
-package code;
 // by Jakub Suszwedyk (6310933) and Marcell Dorko (6326607)
 
-import java.util.ArrayList;
-//-Deliverable One ( lines mentioned are from the original code)::
-//        -Method “currentCategory” ( lines 102-122 ) - Bloater/Long method. That method takes 20 lines of if statements
-//        when it could easily be changed into either one if statement in which all the conditions are linked or by an
-//        array in which all those values are stored and one if statement which checks whether the value is in that array.
-//        -Method “isPlayable” ( lines 33-35 ) - Dispensable/Dead code. That class is never used, if it's needed it
-//        should be used in the code, if it's obsolete it should be deleted.
-//        -Lines 62-71, 78-87 and 128-140, 150-162 - Dispensable/Duplicate Code. Both of those pairs of lines are
-//        duplicating the code ( first pair 9 lines, second 12 lines ), code should be then extracted into a method, so
-//        it's easier to read and understand, that also helps when we want to change that piece of code as using a method
-//        makes sure that we use the same logic in both places.
+/*
+-Deliverable One ( lines mentioned are from the original code)::
+        -Method “currentCategory” ( lines 102-122 ) - Bloater/Long method. That method takes 20 lines of if statements
+        when it could easily be changed into either one if statement in which all the conditions are linked or by an
+        array in which all those values are stored and one if statement which checks whether the value is in that array.
+        -Method “isPlayable” ( lines 33-35 ) - Dispensable/Dead code. That class is never used, if it's needed it
+        should be used in the code, if it's obsolete it should be deleted.
+        -Lines 62-71, 78-87 and 128-140, 150-162 - Dispensable/Duplicate Code. Both of those pairs of lines are
+        duplicating the code ( first pair 9 lines, second 12 lines ), code should be then extracted into a method, so
+        it's easier to read and understand, that also helps when we want to change that piece of code as using a method
+        makes sure that we use the same logic in both places.
+        */
 
+
+package code;
+
+import java.util.ArrayList;
 
 /**
  * The Game class manages the state of the game, including players, their positions, scores, and their penalty status.
@@ -39,11 +43,11 @@ public class Game {
      * @param playerName Name of the player to be added
      */
     public void addPlayer(String playerName) {
-        if(howManyPlayers()<6){
+        if (howManyPlayers() < 6) {
             PLAYERS.add(new Player(playerName));
-        System.out.println(playerName + " was added");
-        System.out.println("They are player number " + PLAYERS.size());
-        }else
+            System.out.println(playerName + " was added");
+            System.out.println("They are player number " + PLAYERS.size());
+        } else
             System.out.println("Cannot add more players");
     }
 
@@ -56,7 +60,7 @@ public class Game {
         return PLAYERS.size();
     }
 
-     /**
+    /**
      * Rolls the dice for the current player and updates the player's position.
      * If the player is in the penalty box, decides whether they get out or not.
      *
@@ -83,13 +87,13 @@ public class Game {
         }
     }
 
-     /**
+    /**
      * Updates the position of the current player based on the dice roll.
      *
      * @param roll Number on the dice roll
      */
     private void updatePlayerPosition(int roll) {
-        if (roll<0){
+        if (roll < 0) {
             throw new RuntimeException("Roll < 0");
         }
         Player player = PLAYERS.get(currentPlayerIndex);
@@ -111,7 +115,7 @@ public class Game {
         System.out.println(QUESTION_MANAGER.getQuestion(category));
     }
 
-     /**
+    /**
      * Determines the category of the current question based on the current player's position.
      *
      * @return The category of the current question
